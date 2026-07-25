@@ -1,0 +1,36 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pip/
+.venv/
+venv/
+env/
+
+# --- Tooling ---
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage/
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Build ---
+build/
+dist/
+
+# --- Env ---
+.env
+.env.local
+
+# --- Logs ---
+*.log
