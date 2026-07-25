@@ -20,8 +20,11 @@ Every new project should not start from zero. This kit encodes battle-tested pat
 git clone https://github.com/<your-org>/ai-engineering-kit.git
 cd ai-engineering-kit
 
-# 2. Scaffold a new project
+# 2. Scaffold a new project (Bash)
 ./scripts/init-project.sh
+
+#    or on Windows (PowerShell):
+# .\scripts\init-project.ps1
 
 # 3. Run the generated project
 cd my-project
@@ -48,7 +51,7 @@ See [QUICKSTART.md](QUICKSTART.md) for a detailed walkthrough.
 
 ## How to Use This Kit
 
-1. **Scaffold a project** — Run `./scripts/init-project.sh` and follow the prompts.
+1. **Scaffold a project** — Run `./scripts/init-project.sh` (Bash) or `.\scripts\init-project.ps1` (PowerShell) and follow the prompts.
 2. **Read `AGENTS.md`** — It defines how AI agents interact with this kit and any project scaffolded from it.
 3. **Read `SPECIFICATION.md`** — It documents the full design intent of this repository.
 4. **Use the prompts** — When working with an AI agent, pass the relevant prompt from `prompts/` as context.

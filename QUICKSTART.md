@@ -6,7 +6,7 @@ Scaffold your first project in under 60 seconds.
 
 - **Python 3** — to run the generated project (install from [python.org](https://python.org))
 - **Git** — to initialise the repository (install from [git-scm.com](https://git-scm.com))
-- **Bash** — to run the scaffold script (available on macOS, Linux, WSL, Git Bash on Windows)
+- **Bash or PowerShell 5.1+** — to run the scaffold script (Bash on macOS/Linux/WSL/Git Bash; PowerShell on Windows)
 
 ## 1. Clone the Kit
 
@@ -17,8 +17,14 @@ cd ai-engineering-kit
 
 ## 2. Scaffold a Project
 
+**macOS / Linux / WSL:**
 ```bash
 ./scripts/init-project.sh
+```
+
+**Windows (PowerShell):**
+```powershell
+.\scripts\init-project.ps1
 ```
 
 The script will ask you:
@@ -89,5 +95,6 @@ my-service/
 | Problem | Fix |
 |---|---|
 | `./scripts/init-project.sh: Permission denied` | Run `chmod +x scripts/init-project.sh` |
+| `.\scripts\init-project.ps1` is blocked by execution policy | Run `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` in an Admin PowerShell |
 | `make: command not found` | Install make (on Windows: `choco install make`, on macOS: `xcode-select --install`) |
 | `python: command not found` | Use `python3` instead, or install Python |
