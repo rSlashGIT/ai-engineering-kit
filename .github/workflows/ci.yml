@@ -1,0 +1,2 @@
+# CI workflow — runs on push and pull request to main
+# TODO: Implement full CI pipeline with lint, test, build, and security check stages.

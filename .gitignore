@@ -1,0 +1,62 @@
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# --- IDE ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# --- Build ---
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+target/
+
+# --- Dependencies ---
+node_modules/
+vendor/
+.bundle/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pip/
+.venv/
+venv/
+env/
+.poetry/
+
+# --- Logs ---
+*.log
+npm-debug.log*
+
+# --- Env ---
+.env
+.env.local
+.env.*.local
+
+# --- Testing ---
+.coverage
+coverage/
+.hypothesis/
+pytest_cache/
+.ruff_cache/
+*.test.js.snap
+
+# --- Misc ---
+*.bak
+*.orig

@@ -1,0 +1,2 @@
+# Lint workflow — runs formatting and static analysis
+# TODO: Implement language-specific lint jobs (ruff, biome, clippy, etc.)
